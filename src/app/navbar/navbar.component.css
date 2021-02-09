@@ -1,0 +1,23 @@
+.nav {
+  background-image: url(/assets/img/anderson-rian-9zN8zP0JYgU-unsplash.jpg);
+  min-height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.navbar {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+.nav a {
+    color: white;
+}
+.navbar-nav {
+  margin-left: 750px;
+  
+}
+.navbar-nav a {
+  padding-left: 50px;
+}
