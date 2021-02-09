@@ -1,0 +1,65 @@
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+#img2 {
+  position: absolute;
+  top: -600px;
+  width: 230px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.login {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: -350px;
+  margin-left: 45px;
+}
+h2 {
+  position: absolute;
+  top: -200px;
+  margin-left: 0px;
+  color: white;
+  font-size: 50px;
+}
+.sixteen {
+  color: black;
+}
+.card {
+  background-color: rgba(20, 20, 20, 255);
+  color: white;
+  top: -550px;
+  right: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.repos {
+  position: absolute;
+  top: -300px;
+  margin-left: 50px;
+  color: white;
+  font-size: 30px;
+}
+.followers {
+  position: absolute;
+  top: -250px;
+  margin-left: 50px;
+  color: white;
+  font-size: 30px;
+}
+.following {
+  position: absolute;
+  top: -200px;
+  margin-left: 50px;
+  color: white;
+  font-size: 30px;
+}
+.head {
+  position: absolute;
+  top: -650px;
+  margin-left: -0px;
+}
+.row {
+  height: 300px;
+}
