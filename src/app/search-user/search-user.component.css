@@ -1,0 +1,64 @@
+.login {
+  color: white;
+}
+.repos {
+  color: white;
+}
+.followers {
+  color: white;
+}
+.form {
+  position: absolute;
+  top: -650px;
+  margin-left: 160px;
+  width: 1000px;
+}
+.form2 {
+  width: 800px;
+}
+#img2 {
+  position: absolute;
+  top: -800px;
+  width: 230px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.card {
+  background-color: rgba(20, 20, 20, 255);
+  color: white;
+  top: -800px;
+  right: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.login {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  top: -550px;
+  margin-left: 45px;
+}
+.repos {
+  position: absolute;
+  top: -500px;
+  margin-left: 50px;
+  color: white;
+  font-size: 30px;
+}
+.followers {
+  position: absolute;
+  top: -450px;
+  margin-left: 50px;
+  color: white;
+  font-size: 30px;
+}
+.following {
+  position: absolute;
+  top: -400px;
+  margin-left: 50px;
+  color: white;
+  font-size: 30px;
+}
+.row {
+  height: 300px;
+}
