@@ -27,16 +27,15 @@ export class UserService {
       followers: number;
       following: number
     }
-    let headers = new HttpHeaders({'Authorization':'token'})
-    let options = {headers:headers}
+
     let promise = new Promise((resolve,reject)=>{
-      this.http.get<ApiResponse>(environment.apiUrl + this.userName + "?access_token=" +  environment.apiKey).toPromise().then(response=>{
+      this.http.get<ApiResponse>(environment.apiUrl + this.userName).toPromise().then(response=>{
         this.profile = response
 
         resolve(response)
       },
       error=>{
-        // this.profile = "error"
+       
 
         reject(error)
       })
@@ -52,12 +51,9 @@ export class UserService {
       followers?: number,
       following?: number
     }
-    let headers = new HttpHeaders({'Authorization':'token'})
-    let options = {headers:headers}
     let promise = new Promise((resolve,reject)=>{
-      this.http.get<ApiResponse>(environment.apiUrl + UserName + "?access_token=" +  environment.apiKey).toPromise().then(response=>{
+      this.http.get<ApiResponse>(environment.apiUrl + UserName).toPromise().then(response=>{
         this.profile = response;
-        // this.profile.public_repos = response.public_repos
       })
     })
     return promise
@@ -68,12 +64,10 @@ export class UserService {
       description:string,
       created_at:string
     }
-    let headers = new HttpHeaders({'Authorization':'token 81d785f37cbccb7ddbbb407055a0c756f0f13398'})
-    let options = {headers:headers}
+    
     let promise = new Promise((resolve,reject)=>{
-      this.http.get<ApiResponse>(environment.apiUrl + UserName + "/repos?access_token=" +  environment.apiKey).toPromise().then(response=>{
+      this.http.get<ApiResponse>(environment.apiUrl + UserName + "/repos").toPromise().then(response=>{
         this.repo = response;
-        // this.profile.public_repos = response.public_repos
       })
     })
     return promise

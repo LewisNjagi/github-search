@@ -26,10 +26,9 @@ export class GithubRequestService {
       repos_url: string;
       created_at:string;
     }
-    let headers = new HttpHeaders({'Authorization':'token 81d785f37cbccb7ddbbb407055a0c756f0f13398'})
-    let options = {headers:headers}
+   
     let promise = new Promise((resolve,reject)=>{
-      this.http.get<ApiResponse>(environment.apiUrl + this.userName + "/repos" + "?access_token=" +  environment.apiKey).toPromise().then(response=>{
+      this.http.get<ApiResponse>(environment.apiUrl + this.userName + "/repos").toPromise().then(response=>{
         this.repository = response
 
         resolve(response)
