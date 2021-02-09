@@ -8,6 +8,7 @@
       <button mdbBtn size="sm" rounded="true" class="my-0 waves-light btn btn-success" mdbWavesEffect type="submit"
         (click)="getuser1();getrepo()">Search user</button>
     </form>
+    <p class="click">DISCLAIMER: Click the Button twice!</p>
   </div>
 
 </div>
@@ -23,7 +24,7 @@
     </div>
 <div class="col-8">
   <div class="row">
-    <h2>Repositories.</h2>
+    <h2 class="head">Repositories.</h2>
     <div class="card" style="width: 18rem;" *ngFor='let repo of repository'>
       <div class="card-body">
         <h5 class="card-title" appUppercase>{{repo.name|uppercase }}</h5>

@@ -10,6 +10,7 @@
   position: absolute;
   margin: 20px;
   width: auto;
+  font-family: 'Montserrat', sans-serif;
 }
 .nav a {
     color: white;

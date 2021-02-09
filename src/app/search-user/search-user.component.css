@@ -62,3 +62,23 @@
 .row {
   height: 300px;
 }
+.click {
+  position: absolute;
+  color: red;
+  top: -600px;
+  font-size: 20px;
+  margin-left: 300px;
+}
+.head {
+  position: absolute;
+  top: -850px;
+  margin-left: -0px;
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  position: absolute;
+  /* top: -200px; */
+  margin-left: 0px;
+  color: white;
+  font-size: 50px;
+}
