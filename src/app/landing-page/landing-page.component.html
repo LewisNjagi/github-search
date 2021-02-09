@@ -1,0 +1,57 @@
+<!-- <form class="form-inline">
+  <div class="form-group mx-sm-3 mb-2">
+    <input type="text" class="form-control" placeholder="user" [(ngModel)]="searchTerm">
+  </div>
+  <input type="submit" class="btn btn-primary mb-2" value="Search UserName" (click)="searchUser()"></input>
+</form> -->
+
+<!-- <app-form (searchProf)="userRequest($event)"></app-form> -->
+<div class="container">
+  <!-- <div class="row" style="margin-top: 30px;">
+
+    <h2></h2>
+    <div class="col-md-6 pt-2">
+      <form class="form-inline md-form mr-auto mb-4" #name="ngForm">
+        <input class="form-control  mr-sm-2" type="text" placeholder="Enter GitHub name" aria-label="Search"
+          [(ngModel)]="UserName" name="UserName">
+        <button mdbBtn size="sm" rounded="true" class="my-0 waves-light btn btn-success" mdbWavesEffect type="submit"
+          (click)="getuser1()">Search user</button>
+      </form>
+    </div>
+
+  </div> -->
+
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <div *ngIf='user'>
+      <h2 class="login">UserName: {{ user.login }}</h2>
+      <img src="{{ user.avatar_url }}" class="img-fluid z-depth-1 rounded-square hoverable" id="img2" alt="">
+      <h1 class="repos">Repositories: {{ user.public_repos }}</h1>
+      <h1 class="followers">Followers: {{user.followers}}</h1>
+      <h1 class="following">Following: {{user.following}}</h1>
+    </div>
+  </div>
+  <!-- <div class="col" *ngIf='repository'>
+    <img src="" class="img-fluid z-depth-1 rounded-square hoverable" alt="">
+    <h1>{{ user.login }}</h1>
+  </div> -->
+
+  <div class="col-8">
+    <div class="row">
+      <h2 class="head">Repositories.</h2>
+      <div class="card" style="width: 18rem;" *ngFor='let repo of repository'>
+        <div class="card-body">
+          <h5 class="card-title" appUppercase>{{repo.name|uppercase }}</h5>
+          <p class="card-text">{{ repo.description}}</p>
+          <p class="card-text">{{ repo.created_at|dateCount }}</p>
+          <button type="button" class="btn btn-dark" onclick="window.location.href='https://github.com/LewisNjagi?tab=repositories';">View on Github</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row2">
+
+</div>
