@@ -1,27 +1,25 @@
-# GithubSearch
+# GITHUB SEARCH
+#### Website Api where you can search for Users and Repositories, 9th Feb 2021
+#### By **Lewis Njagi**
+## Description
+Github Website Api where you can search for Users and Repositories.
+## Setup/Installation Requirements
+* Computer - 4 GHz minimum, multi-core processor.
+* RAM - At least 4GB, preferably higher, and comensurate with concurrent usage.
+* Hard Disk Space - At least 10 GB.
+* Operating system - Windows Server 2012 R2 or above.
+* Browser Compatibility - Microsoft Edge, Mozilla Firefox, Google Chrome, Safari.
+* Smartphone - Android or ios operating system smartphone. {It is easy for potential users, employers and collaborators can ru the app. No server and depencies needed.  This app does not need to run on any code.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Known Bugs
+Click Twice on the Search User button after searching for a Repository.
+## Technologies Used
+* HTML
+* CSS 
+* TYPESCRIPT
+* ANGULAR
+## Support and contact details
+lewismaybach@gmail.com
+### License
+*MIT License.  See below for more details on licensing. https://opensource.org/licenses/MIT*
+Copyright (c) {2021} **Lewis Njagi**

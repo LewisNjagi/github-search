@@ -15,7 +15,7 @@
 <div class="row">
     <div class="col-4">
       <div *ngIf='user' class="user">
-        <h2 class="login">UserName: {{ user.login }}</h2>
+        <h2 class="login">User: {{ user.login }}</h2>
         <img src="{{ user.avatar_url }}" class="img-fluid z-depth-1 rounded-square hoverable" id="img2" alt="">
         <h1 class="repos">Repositories: {{ user.public_repos }}</h1>
         <h1 class="followers">Followers: {{user.followers}}</h1>
